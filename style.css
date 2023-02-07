@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.button{
+    width: 100px;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 350ms;
+    border: none;
+    font-weight: bold;
+    display: flexbox;
+    margin: 1rem;
+}
+
+section div{
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: block;
+}
+
+div.verm button:hover{
+    background-color: red;
+    color: black;
+}
+
+div.amar button:hover{
+    background-color: rgb(235, 235, 0);
+    color: black;
+}
+
+div.ver button:hover{
+    background-color: green;
+    color: black;
+}
+
+div.aut button:hover{
+    background-color: rgb(19, 0, 128);
+    color: white;
+}
