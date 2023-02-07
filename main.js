@@ -33,7 +33,7 @@ const turnOn = {
     'red':        () => img.src = './img/vermelho.png',
     'yellow':     () => img.src = './img/amarelo.png',
     'green':      () => img.src = './img/verde.png',
-    'auto':       () => intervalId = setInterval(changeColor, 2000)
+    'auto':       () => intervalId = setInterval(changeColor, 1200)
 }
 
 buttons.addEventListener('click', trafficLight)
